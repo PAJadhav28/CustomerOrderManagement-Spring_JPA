@@ -2,7 +2,7 @@
 
 A simple web-based application to manage customers and their orders. This project demonstrates the use of Spring MVC and Spring ORM (with Hibernate as JPA provider) for building a CRUD-based enterprise Java application.
 
-## 📌 Features
+## Features
 
 - Add, update, delete, and view customers.
 - Add, update, delete, and view customer orders.
@@ -11,7 +11,7 @@ A simple web-based application to manage customers and their orders. This projec
 - Uses MySQL as the database.
 - WAR packaging for deployment on servers like Tomcat.
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 | Layer         | Technology                    |
 |---------------|-------------------------------|
@@ -23,7 +23,7 @@ A simple web-based application to manage customers and their orders. This projec
 | Packaging     | WAR                            |
 | IDE           | Eclipse / IntelliJ             |
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 CustomerOrderManagement-Spring_JPA/
@@ -43,7 +43,7 @@ CustomerOrderManagement-Spring_JPA/
 ├── pom.xml
 ```
 
-## 🔄 Workflow
+## Workflow
 
 1. User submits a form (Add Customer / Add Order).
 2. Controller receives the request and maps it to a model.
@@ -51,7 +51,7 @@ CustomerOrderManagement-Spring_JPA/
 4. DAO layer interacts with the database using Hibernate.
 5. Response is returned to the view.
 
-## 🗃️ Database Schema
+## Database Schema
 
 ### Customer Table
 - `id` (Primary Key)
@@ -64,7 +64,7 @@ CustomerOrderManagement-Spring_JPA/
 - `amount`
 - `customer_id` (Foreign Key)
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 1. **Clone the project**  
    ```
@@ -89,14 +89,23 @@ CustomerOrderManagement-Spring_JPA/
    http://localhost:8080/CustomerOrderManagement-Spring_JPA/
    ```
 
-## ✅ Future Enhancements
+## Output
+<img src="https://github.com/PAJadhav28/CustomerOrderManagement-Spring_JPA/blob/main/output/localhost_8082_CustomerOrderManagement-Spring_JPA_.png">
+<img src="https://github.com/PAJadhav28/CustomerOrderManagement-Spring_JPA/blob/main/output/localhost_8082_CustomerOrderManagement-Spring_JPA_customers.png">
+<img src="https://github.com/PAJadhav28/CustomerOrderManagement-Spring_JPA/blob/main/output/localhost_8082_CustomerOrderManagement-Spring_JPA_customers_add.png">
+<img src="https://github.com/PAJadhav28/CustomerOrderManagement-Spring_JPA/blob/main/output/localhost_8082_CustomerOrderManagement-Spring_JPA_customers_edit_id%3D1.png">
+<img src="https://github.com/PAJadhav28/CustomerOrderManagement-Spring_JPA/blob/main/output/localhost_8082_CustomerOrderManagement-Spring_JPA_customers_summary_id%3D2.png">
+<img src="https://github.com/PAJadhav28/CustomerOrderManagement-Spring_JPA/blob/main/output/localhost_8082_CustomerOrderManagement-Spring_JPA_orders.png">
+<img src="https://github.com/PAJadhav28/CustomerOrderManagement-Spring_JPA/blob/main/output/localhost_8082_CustomerOrderManagement-Spring_JPA_report.png">
+
+## Future Enhancements
 
 - Add pagination and sorting.
 - Add role-based login.
 - Implement REST APIs.
 - Add validation using Hibernate Validator.
 
-## 🙋‍♀️ Author
+## Author
 
 **Pallavi Jadhav**  
 B.E. Computer Science, Class of 2023  
